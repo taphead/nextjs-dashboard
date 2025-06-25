@@ -1,0 +1,12 @@
+.shape {
+  margin-top: 1rem; /* mt-4 */
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 1rem; /* gap-4 */
+
+  /* media query for md:flex-row */
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
